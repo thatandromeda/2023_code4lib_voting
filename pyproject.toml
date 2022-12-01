@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "2023-code4lib-voting"
+version = "0.1.0"
+description = ""
+authors = ["Andromeda Yelton <andromeda.yelton@gmail.com>"]
+readme = "README.md"
+packages = [{include = "2023_code4lib_voting"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pyrankvote = "^2.0.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
